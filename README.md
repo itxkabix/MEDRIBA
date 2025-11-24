@@ -56,7 +56,9 @@ pip install -r requirements.txt
 
 3. Download the pre-trained machine learning models for diabetes and heart disease. Make sure to place them in the appropriate directories within the project structure.
 
-4. Update the necessary configurations and file paths in the project files.
+4. Do use Google colab to train the models.
+
+5. Update the necessary configurations and file paths in the project files.
 
 ## Usage
 
