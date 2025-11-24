@@ -15,7 +15,7 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Multi-Model Expert Digital Responsive Intelligent Bio-health Assistant',
+    selected = option_menu('MEDRIBA',
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
@@ -23,7 +23,7 @@ with st.sidebar:
                           icons=['activity','heart','person'],
                           default_index=0)
     
-st.title("MEDRIBA - Multi-Model Expert Digital Responsive Intelligent Bio-health Assistant")
+st.title("Multi-Model Expert Digital Responsive Intelligent Bio-health Assistant")
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
@@ -189,4 +189,4 @@ def set_bg_from_url(url, opacity=1):
     )
 
 # Set background image from URL
-set_bg_from_url("https://images.everydayhealth.com/homepage/health-topics-2.jpg?w=768", opacity=0.875)
+set_bg_from_url("https://i.postimg.cc/xjyffN9v/Gemini-Generated-Image-2syurj2syurj2syu.png", opacity=0.875)
