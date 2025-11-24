@@ -15,7 +15,7 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Medical Expert Digital Responsive Intelligent Bio-health Assistant',
+    selected = option_menu('Multi-Model Expert Digital Responsive Intelligent Bio-health Assistant',
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
@@ -23,7 +23,7 @@ with st.sidebar:
                           icons=['activity','heart','person'],
                           default_index=0)
     
-st.title("MEDRIBA - Medical Expert Digital Responsive Intelligent Bio-health Assistant")
+st.title("MEDRIBA - Multi-Model Expert Digital Responsive Intelligent Bio-health Assistant")
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
