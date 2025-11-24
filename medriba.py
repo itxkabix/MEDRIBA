@@ -189,4 +189,4 @@ def set_bg_from_url(url, opacity=1):
     )
 
 # Set background image from URL
-set_bg_from_url("https://i.postimg.cc/xjyffN9v/Gemini-Generated-Image-2syurj2syurj2syu.png", opacity=0.875)
+set_bg_from_url("https://i.postimg.cc/DyGMkHLZ/medriba-itxkabix.png", opacity=0.875)
